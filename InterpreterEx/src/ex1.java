@@ -1,5 +1,4 @@
 import java.util.Scanner;
-import java.util.*;
 
 public class ex1 {
 
@@ -11,6 +10,7 @@ public class ex1 {
 			
 			System.out.println("(+ 1 2) 와 같이 입력해주세요. e 입력시 종료");
 			
+			@SuppressWarnings("resource")
 			Scanner scan = new Scanner(System.in);
 			String message = "";
 			int result = 0;

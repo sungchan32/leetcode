@@ -15,7 +15,7 @@ public class leetcode_54_Spiral_Matrix {
 	
 	public static List<Integer> spiralOrder(int[][] matrix) {
 		
-		List<Integer> result = new LinkedList();
+		List<Integer> result = new LinkedList<Integer>();
 		int countLimit = matrix.length;
 		
 		if(matrix.length == 0)

@@ -3,6 +3,8 @@ import java.util.Stack;
 
 public class ex2 {
 
+	private static Scanner scan;
+
 	public static void main(String[] args) {
 		
 		// TODO Auto-generated method stub
@@ -12,7 +14,7 @@ public class ex2 {
 			
 			System.out.println("(* (+ 10 20) (- 1 2)) 와 같이 입력해주세요. e 입력시 종료");
 			
-			Scanner scan = new Scanner(System.in);
+			scan = new Scanner(System.in);
 			String message = "";
 			
 			//사용자 입력 받기
